@@ -223,7 +223,7 @@ public class MainActivity extends AppCompatActivity {
             answer=0;
             sign="";}
         else if(sign.equals("/"))
-        {answer=((secondDisplay/10)/(display)/10);
+        {answer=((display/10)/(secondDisplay)/10);
             textView.setText(String.valueOf(answer));
             answer=0;
             sign="";}
